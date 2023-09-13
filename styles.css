@@ -1,2 +1,49 @@
 
 /* Your CSS Code here. */
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+	
+}
+.heading>img{
+	height:200px;
+	width:200px;
+	
+}
+.heading>h1{
+	padding-left:25px;
+}
+.heading{
+	display:flex;
+	align-items:center;
+}
+.linkd{
+	margin-top:20px;
+	display:flex;
+	justify-content:center;
+	background-color:magenta
+	
+}
+.linkd>a{
+	text-decoration:none;
+}
+#skills,#projects{
+	display:flex;
+	justify-content:center;
+	margin-top:20px;
+	background-color:aquamarine
+}
+#skills p{
+	font-weight:bold;
+	font-size:20px;
+	padding-bottom:10px;
+}
+ul>li{
+	margin-left:20px;
+}
+#projects p{
+	font-weight:bold;
+	font-size:20px;
+	padding-bottom:10px;
+}
